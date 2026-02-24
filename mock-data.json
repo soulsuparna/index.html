@@ -1,0 +1,69 @@
+{
+  "cafe": {
+    "name": "The Daily Grind Cafe",
+    "tagline": "Fuel your day, one cup at a time",
+    "location": {
+      "address": "45 Brew Street, Downtown",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India",
+      "pincode": "700001"
+    },
+    "contact": {
+      "phone": "+91 98765 43210",
+      "email": "hello@thedailygrindcafe.in"
+    },
+    "hours": {
+      "monday_friday": "8:00 AM – 9:00 PM",
+      "saturday": "9:00 AM – 10:00 PM",
+      "sunday": "9:00 AM – 8:00 PM"
+    }
+  },
+
+  "menu": {
+    "coffee": [
+      { "id": 1, "name": "Espresso", "price": 120, "available": true },
+      { "id": 2, "name": "Americano", "price": 150, "available": true },
+      { "id": 3, "name": "Cappuccino", "price": 180, "available": true },
+      { "id": 4, "name": "Latte", "price": 190, "available": true },
+      { "id": 5, "name": "Mocha", "price": 210, "available": true }
+    ],
+    "food": [
+      { "id": 101, "name": "Grilled Sandwich", "price": 220, "available": true },
+      { "id": 102, "name": "Avocado Toast", "price": 260, "available": true },
+      { "id": 103, "name": "Veg Burger", "price": 250, "available": false },
+      { "id": 104, "name": "Pasta Alfredo", "price": 320, "available": true }
+    ],
+    "desserts": [
+      { "id": 201, "name": "Chocolate Brownie", "price": 180, "available": true },
+      { "id": 202, "name": "Blueberry Muffin", "price": 150, "available": true },
+      { "id": 203, "name": "Cheesecake Slice", "price": 220, "available": true }
+    ]
+  },
+
+  "gallery": [
+    { "id": 1, "image": "images/cafe-interior.jpg", "alt": "Cafe Interior" },
+    { "id": 2, "image": "images/coffee-art.jpg", "alt": "Latte Art" },
+    { "id": 3, "image": "images/dessert.jpg", "alt": "Desserts" }
+  ],
+
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Aman",
+      "rating": 5,
+      "comment": "Amazing coffee and super cozy vibes!"
+    },
+    {
+      "id": 2,
+      "name": "Riya",
+      "rating": 4,
+      "comment": "Loved the latte and the ambience."
+    }
+  ],
+
+  "socials": {
+    "instagram": "https://instagram.com/thedailygrindcafe",
+    "facebook": "https://facebook.com/thedailygrindcafe"
+  }
+}
